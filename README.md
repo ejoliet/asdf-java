@@ -29,12 +29,12 @@ mvn archetype:generate -DgroupId=edu.caltech.ipac.roman.asdfparser -DartifactId=
 Build and create jar:
 
 ```sh
-mvn clean install
+mvn clean compile assembly:single
 ```
 then run:
 
 ```sh
-java -cp target/asdf-parser-1.0-SNAPSHOT.jar edu.caltech.ipac.roman.asdfparser.AsdfReader
+java -jar target/asdf-parser-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```
 
 Rinse and repeat.
