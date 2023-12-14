@@ -16,7 +16,7 @@ Clone the Repository
 
 ```sh
    git clone https://github.com/ejoliet/asdf-java.git
-   cd asdf-java
+   cd asdf-parser
    ```
 
 ## Build
